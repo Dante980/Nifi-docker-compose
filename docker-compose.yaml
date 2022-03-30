@@ -8,22 +8,20 @@ services:
     env_file:
       - .env
     labels:
-     - app.docker.io/name=mysql
-     - app.docker.io/env=production
-     - app.docker.io/created-by:saeedhosseini
+     - name=nifi
+     - env=production
+     - created-by:saeedhosseini
     ports:
       - 8443:8443
     volumes:
       - nifi_data:/opt/nifi/nifi-current/ls-target apache/nifi
 
-
-
   registry:
     image: apache/nifi-registry:latest
     labels:
-      - app.docker.io/name=mysql
-      - app.docker.io/env=production
-      - app.docker.io/created-by:saeedhosseini
+      - name=nifi-registry
+      - env=production
+      - created-by:saeedhosseini
     ports:
       - 18080:18080
 
