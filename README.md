@@ -7,11 +7,14 @@
         SINGLE_USER_CREDENTIALS_PASSWORD=ctsBtRBKHRAx69EqUghvvgEvjnaLjFEB
 
  3. Run the following commands:
+
         cd apache-nifi/
+
         docker-compose up
+
  4. Wait around 20 seconds then open link http://localhost:8443
  5. Use the username and password set in the .env file for login
  6. To connect the Nifi application  to the registry, add the registry address (http://registry:18080) in the Nifi Setting → Registry Client
- 7. open link http://localhost:18080/nifi-registry
+ 7. Open link http://localhost:18080/nifi-registry
  8. From the settting, click on NEW BUCKET and create a bucket for storing Nifi flows
  9. Now you can save your Nifi flows in this configured registry.
