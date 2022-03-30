@@ -3,6 +3,7 @@
 #### how to use:
  1. Pull the repositry  
  2. Create a file named .env in the repository folder and add variables SINGLE_USER_CREDENTIALS_USERNAME  SINGLE_USER_CREDENTIALS_PASSWORD to it.
+
         SINGLE_USER_CREDENTIALS_USERNAME=admin
         SINGLE_USER_CREDENTIALS_PASSWORD=ctsBtRBKHRAx69EqUghvvgEvjnaLjFEB
 
