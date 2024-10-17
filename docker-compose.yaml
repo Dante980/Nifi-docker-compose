@@ -1,5 +1,5 @@
 version: !!str 3
-новая версия скоро будет
+
 services:
   nifi:
     image: apache/nifi:latest
